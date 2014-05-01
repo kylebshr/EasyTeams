@@ -1,0 +1,29 @@
+name: TeamManager
+main: com.kylebashour.tm.TeamPlugin
+version: 0.1
+commands:
+  nt:
+    description: Create a new team
+    usage: /nt <player1> <player2> ...
+    permissions: tm.nt
+    permissions-message: You don't have permision to use this command. (tm.nt)
+  dt:
+    description: Deletes all of the teams from the scoreboard
+    usage: /dt
+    permissions: tm.dt
+    permissions-message: You don't have permision to use this command. (tm.dt)
+  twl:
+    description: Turns team whitelisting on or off (i.e., players must be on a team to join the server)
+    usage: /twl
+    permissions: tm.twl
+    permissions-message: You don't have permision to use this command. (tm.twl)
+  st:
+    description: Scatters teams with a given radius
+    usage: /st <world> <radius> <minimumdistance>
+    permissions: tm.st
+    permissions-message: You don't have permision to use this command. (tm.st)
+  rt:
+    description: Creats random teams of the given size
+    usage: /rt <teamsize>
+    permisions: tm.rt
+    permissions-message: You don't have permision to use this command. (tm.rt)
